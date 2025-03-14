@@ -1,0 +1,12 @@
+C:\Users\USER\source\repos\AirportManagement\AM.ApllicationCore\bin\Release\net8.0\AM.ApllicationCore.deps.json
+C:\Users\USER\source\repos\AirportManagement\AM.ApllicationCore\bin\Release\net8.0\AM.ApllicationCore.dll
+C:\Users\USER\source\repos\AirportManagement\AM.ApllicationCore\bin\Release\net8.0\AM.ApllicationCore.pdb
+C:\Users\USER\source\repos\AirportManagement\AM.ApllicationCore\obj\Release\net8.0\AM.ApllicationCore.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\AirportManagement\AM.ApllicationCore\obj\Release\net8.0\AM.ApllicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\AirportManagement\AM.ApllicationCore\obj\Release\net8.0\AM.ApllicationCore.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\AirportManagement\AM.ApllicationCore\obj\Release\net8.0\AM.ApllicationCore.AssemblyInfo.cs
+C:\Users\USER\source\repos\AirportManagement\AM.ApllicationCore\obj\Release\net8.0\AM.ApllicationCore.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\AirportManagement\AM.ApllicationCore\obj\Release\net8.0\AM.ApllicationCore.dll
+C:\Users\USER\source\repos\AirportManagement\AM.ApllicationCore\obj\Release\net8.0\refint\AM.ApllicationCore.dll
+C:\Users\USER\source\repos\AirportManagement\AM.ApllicationCore\obj\Release\net8.0\AM.ApllicationCore.pdb
+C:\Users\USER\source\repos\AirportManagement\AM.ApllicationCore\obj\Release\net8.0\ref\AM.ApllicationCore.dll
