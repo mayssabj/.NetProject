@@ -19,6 +19,6 @@ namespace AM.ApplicationCore.Interfaces
         IEnumerable<T> GetMany(Expression<Func<T, bool>> where );
         T Get(Expression<Func<T, bool>> where);
         void Commit();
-        IList<Flight> GetFlights(int n);
+   
     }
 }

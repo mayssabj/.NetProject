@@ -15,3 +15,4 @@ C:\Users\USER\source\repos\AirportManagement\AM.Infrastructure\obj\Debug\net8.0\
 C:\Users\USER\source\repos\AirportManagement\AM.Infrastructure\obj\Debug\net8.0\AM.Infrastructure.pdb
 C:\Users\USER\source\repos\AirportManagement\AM.Infrastructure\obj\Debug\net8.0\AM.Infrastructure.genruntimeconfig.cache
 C:\Users\USER\source\repos\AirportManagement\AM.Infrastructure\obj\Debug\net8.0\ref\AM.Infrastructure.dll
+C:\Users\USER\source\repos\AirportManagement\AM.Infrastructure\obj\Debug\net8.0\AM.Infrastructure.sourcelink.json

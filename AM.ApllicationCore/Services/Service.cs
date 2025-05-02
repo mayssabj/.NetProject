@@ -70,6 +70,11 @@ namespace AM.ApplicationCore.Services
         {
             throw new NotImplementedException();
         }
+
+        public IList<Traveller> GetPassenger(Plane plane, DateTime date)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 

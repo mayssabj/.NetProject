@@ -18,58 +18,35 @@ namespace AM.ApllicationCore.Services
         private IUnitOfWork _unitOfWork ;
         public ServiceFlight(IUnitOfWork unitOfWork) : base(unitOfWork)
         {
-            _unitOfWork = unitOfWork;
+            this._unitOfWork = unitOfWork;
         }
 
-        public void Add(Flight entity)
+
+        public IList<Traveller> GetPassenger(Domain.Plane plane, DateTime date)
         {
-            throw new NotImplementedException();
+            return plane.ListFlights
+                .Where(f => f.FlightDate.Date == date.Date)
+                .SelectMany(f => f.ListTicket)
+                .Select(t => t.MyPassenger)
+                .OfType<Traveller>()
+                .Distinct()
+                .ToList();
         }
 
-        public void Commit()
+        public int GetPassengerCountByDateRange(Domain.Plane plane, DateTime startDate, DateTime endDate)
         {
-            throw new NotImplementedException();
+            return plane.ListFlights
+                .Where(f => f.FlightDate.Date >= startDate.Date && f.FlightDate.Date <= endDate.Date)
+                .SelectMany(f => f.ListTicket)
+                .Select(t => t.MyPassenger)
+                .OfType<Traveller>()
+                .Distinct()
+                .Count();
         }
 
-        public void Delete(Flight entity)
-        {
-            throw new NotImplementedException();
-        }
+        
 
-        public void Delete(Expression<Func<Flight, bool>> where)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void DeleteOldPlanes()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Flight Get(Expression<Func<Flight, bool>> where)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<Flight> GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Flight GetById(params object[] id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<Flight> GetMany(Expression<Func<Flight, bool>> where)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IList<Traveller> GetPassengers(Domain.Plane plane)
-        {
-            throw new NotImplementedException();
-        }
+     
 
         //public IList<Staff> GetStaff(int id)
         //{
@@ -94,14 +71,8 @@ namespace AM.ApllicationCore.Services
                 .Distinct()
                 .ToList();
         }
-      
 
-
-
-        public void Update(Flight entity)
-        {
-            throw new NotImplementedException();
-        }
+       
        
     }
 }
